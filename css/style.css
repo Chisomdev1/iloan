@@ -1,159 +1,6 @@
 @charset "UTF-8";
 /*
-Theme Name: Fincatch HTML5 Template
-Theme URI: 
-Design by: 
-Developed by: Flash Coder Studio
-Version: 1.0
-License: 
-Tags: 
-*/
-/*================================================
-[  Table of contents  ]
-================================================
 
-    1 Theme Default
-
-    2 Manu Bar
-
-    3 Banner
-
-    4 Core Feature
-
-    5 Video Box
-
-    6 Benefits
-
-    7 Key Benefits
-
-    8 Recent Blogs
-
-    9 Partners
-
-    10 About Us
-
-    11 Our Mission
-
-    12 Our Values
-
-    13 Banking Experience
-
-    14 The founders
-
-    15 Interested Our Team
-
-    16 Pament Get Card
-
-    17 Invoices Card
-
-    18 Financial
-
-    19 Why They Prefer
-
-    20 Discover
-
-    21 Library
-
-    22 Financial Technology
-
-    23 Tab Section
-
-    24 Report Download
-
-    25 Our Services
-
-    26 Start Expanding
-
-    27 Financial Placnners
-
-    28 Refine Financial
-
-    29 Professionals
-
-    30 Client Testimonial
-
-    31 CTA
-
-    32 Our Story
-
-    33 Why Choose Us
-
-    34 Our Team
-
-    35 Partners Logo
-
-    36 Wealth
-
-    37 Investment Carts
-
-    38 Secure Investments
-
-    39 Progress List
-
-    40 Process Cards
-
-    41 Eligbility
-
-    42 Components Studio
-
-    43 Built By Developers
-
-    44 Grow With Peace
-
-    45 Stay Control
-
-    46 Powerfull Payment
-
-    47 Our Inverstors
-
-    48 Pricing
-
-    49 About The Team
-
-    50 Team Testimonial
-
-    51 Meet The Team
-
-    52 Perks and benefits
-
-    53 Your Voice Area 
-
-    54 job-opportunities
-
-    55 Work Space
-
-    56 Job Filter
-
-    57 Abilable Job
-
-    58 Trasted By
-
-    59 Why Fincatch
-
-    60 Box Image Content
-
-    61 Wallet Integrations
-
-    62 Automated Payments
-
-    63 How To It Work
-
-    64 Use Case
-
-    65 Buisness
-
-    66 Contact
-
-    67 Map Area
-
-    68 Sponser
-
-    69 Footer
-
-======================================
-[ End table content ]
-======================================*/
-/* =================
     Google Fonts 
 ===================*/
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&amp;family=Manrope:wght@400;500;600;700&amp;family=Marcellus&amp;family=Oswald:wght@400;500;600;700&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap");
@@ -295,6 +142,10 @@ body {
 }
 
 .testimonial-para {
+  font-family: "Poppins", sans-serif !important;
+}
+
+.sub-title{
   font-family: "Poppins", sans-serif !important;
 }
 
@@ -18616,6 +18467,163 @@ Tags:
 .footer-main.v2 .text a:hover {
   color: var(--color-green);
   border-bottom: 1px solid var(--color-green);
+}
+
+.footer-main.v3 {
+  padding: 25px 0px;
+}
+
+.footer-main.v3 .text {
+  color: var(--color-black);
+}
+
+.footer-main.v3 .text a {
+  color: var(--color-black);
+  border-bottom: 1px solid var(--color-black);
+}
+
+.footer-main.v3 .text a:hover {
+  color: var(--color-dGreen);
+  border-bottom: 1px solid var(--color-dGreen);
+}
+
+.footer-main.v4 .footer-main-content {
+  padding: 25px 0px;
+  border-top: 1px solid var(--color-border);
+}
+
+.footer-main.v4 .text {
+  color: var(--color-white);
+}
+
+.footer-main.v4 .text a {
+  color: var(--color-white);
+  border-bottom: 1px solid var(--color-black4);
+}
+
+.footer-main.v4 .text a:hover {
+  color: var(--color-red);
+  border-bottom: 1px solid var(--color-red);
+}
+
+.footer-main.v5 {
+  background: var(--color-black7);
+}
+
+.footer-main.v5 .footer-main-content {
+  padding: 20px 0px;
+}
+
+.footer-main.v5 .text {
+  color: var(--color-white);
+}
+
+.footer-main.v5 .text a {
+  color: var(--color-white);
+  border-bottom: 1px solid var(--color-white);
+}
+
+.footer-main.v5 .text a:hover {
+  color: var(--color-lBlue3);
+  border-bottom: 1px solid var(--color-lBlue3);
+}
+
+.footer-main.v6 {
+  background: var(--color-tr);
+}
+
+.footer-main.v6 .footer-main-content {
+  padding: 18px 0px 80px 0px;
+  border-top: 1px solid var(--color-border6);
+}
+
+.footer-main.v6 .text {
+  color: var(--color-white);
+}
+
+.footer-main.v6 .text a {
+  color: var(--color-white);
+  border-bottom: 1px solid var(--color-white);
+}
+
+.footer-main.v6 .text a:hover {
+  color: var(--color-lBlue3);
+  border-bottom: 1px solid var(--color-lBlue3);
+}
+
+.footer-main.v6 .social-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.footer-main.v6 .social-link a {
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  font-size: 13px;
+  line-height: 33px;
+  border-radius: 50px;
+  border: 1px solid var(--color-border6);
+}
+
+.footer-main.v6 .social-link a:hover {
+  background: var(--color-lBlue3);
+}
+
+.footer-main.v7 {
+  background: var(--color-dBlue3);
+}
+
+.footer-main.v7 .footer-main-content {
+  padding: 20px 0px;
+  border-top: 1px solid var(--color-black13);
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.footer-main.v7 .text {
+  color: var(--color-white);
+}
+
+.footer-main.v7 .text a {
+  color: var(--color-white);
+  border-bottom: 1px solid var(--color-white);
+}
+
+.footer-main.v7 .text a:hover {
+  color: var(--color-lBlue3);
+  border-bottom: 1px solid var(--color-lBlue3);
+}
+
+.footer-main.v8 {
+  background: #013830;
+}
+
+.footer-main.v8 .footer-main-content {
+  padding: 20px 0px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1882352941);
+}
+
+.footer-main.v8 .text {
+  color: var(--color-white);
+}
+
+.footer-main.v8 .text a {
+  color: var(--color-white);
+  border-bottom: 1px solid var(--color-white);
+}
+
+.footer-main.v8 .text a:hover {
+  color: var(--color-green5);
+  border-bottom: 1px solid var(--color-green5);
 }
 
 .footer-main.v3 {
